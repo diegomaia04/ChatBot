@@ -14,11 +14,11 @@ import java.util.stream.Collectors;
 
 public class ChatBot {
 
-    private static final String API_KEY = "AIzaSyCoT0h6cRDLICPE2Mpc-H23VukF7b6T0X0";
+    private static final String API_KEY = "API_KEY";
     private static final String URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent";
 
     private static final String SYSTEM_PROMPT = """
-            Você é um assistente de banco Santander, com especialidade em emprestimos.
+            Você é um assistente de banco, com especialidade em emprestimos.
             Seu nome é "ChatBot".
             Seja sempre educado, prestativo e responda de forma concisa.
             Não responda assuntos que não estejam ligados com emprestimos e banco.
